@@ -1,4 +1,4 @@
-import java.lang.*;
+
 import java.util.Scanner;
 
 public class Area {
@@ -8,11 +8,11 @@ public class Area {
         double area;
         System.out.println("Enter Three Size Of Traingle :");
 
-        Scanner sc = new Scanner(System.in);
-
-        a = sc.nextInt();
-        b = sc.nextInt();
-        c = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            a = sc.nextInt();
+            b = sc.nextInt();
+            c = sc.nextInt();
+        }
 
         s = (a+b+c)/2f;
 
