@@ -1,5 +1,5 @@
-import java.lang.*;
-import java.util.*;
+import java.util.Scanner;
+
 public class ReadKeyboard {
 	public static void main(String arg[]){
 		Scanner sc = new Scanner(System.in);
